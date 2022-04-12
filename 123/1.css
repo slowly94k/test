@@ -1,0 +1,41 @@
+@charset "UTF-8";
+table{
+  text-align: center; 
+  margin: auto;
+  height: 700px;
+}
+
+table, td, th{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+
+/* 글자를 세로로 */
+#th1{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;  
+  width: 50px;
+}
+
+#c1{
+  text-align: left;
+}
+
+#r1{
+  width: 120px;
+}
+
+#r2{
+  width: 220px;
+}
+
+#r3{
+  width: 160px;
+}
+
+#r4{
+  width: 160px;
+}
+

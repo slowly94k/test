@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>table form</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+  <h1>회원가입</h1>
+
+  <form>
+    <fieldset>
+      <legend>필수 입력 사항</legend>
+      <table>
+
+        <tr>
+          <th>아이디</th>
+          <td><input type="text" placeholder="아이디 10글자 이내"></td>
+          <td><button>중복확인</button></td>
+        </tr>
+
+        <tr>
+          <th>비밀번호</th>
+          <td><input type="password" placeholder="영문,숫자,특수문자 포함 8자 이상"></td>
+        </tr>
+
+        <tr>
+          <th>비밀번호 확인</th>
+          <td><input type="password"></td>
+        </tr>
+
+        <tr>
+          <th>이메일</th>
+          <td><input type="email">@</td>
+          <td>
+            <select>
+              <option value="self">직접입력</option>
+              <option value="naver">naver.com</option>
+              <option value="daum">daum.net</option>
+              <option value="google">google.com</option>
+            </select>
+          </td>
+        </tr>       
+      </table>      
+    </fieldset>
+
+    <fieldset>
+      <legend>추가 정보</legend>
+      <label for="profile">프로필 사진</label>
+      <button>파일 선택</button>
+      <br><br>
+
+      <label>성별 :</label>
+      <input type="radio" name="gender" value="M">남자
+      <input type="radio" name="gender" value="F">여자
+      <br><br>
+
+      <label>생년월일 :</label>
+      <input type="date">
+      <br><br>
+
+      <label>취미</label><br>
+      <input type="checkbox" name="yagu">야구
+      <input type="checkbox" name="yagu">농구
+      <input type="checkbox" name="yagu">축구<br>
+      <input type="checkbox" name="yagu">공구
+      <input type="checkbox" name="yagu">음악감상
+      <input type="checkbox" name="yagu">기타
+      <input type="text">
+      <br><br>
+
+      <label>자기소개</label><br>
+      <textarea cols="50" rows="10" style="resize: none;"></textarea>
+      
+    </fieldset><br>
+
+    <button>회원가입</button>
+    <button>다시입력</button>
+    <button>이전으로</button>
+    
+  </form>
+  
+</body>
+</html>

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+table{
+  text-align: center; 
+  height: 150px; 
+}
+
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.tb3{
+  padding: 1px;
+  height: 300px; 
+  width:  600px;
+}
+
+caption{
+  caption-side: top;
+}
+
+.c1{
+  background-color: gray;
+}
+
+.c11{
+  text-align: left;
+}
+.c12{
+  text-align: right;
+}
+
+.p1{
+  text-align: left;
+}
+
+

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+div{
+  border: 1px solid black;
+}
+
+.table{
+  display: table;
+  width: 100%;
+}
+
+.table-row{
+  display: table-row;
+}
+
+.table-cell{
+  display: table-cell;
+  padding: 0px 20px;
+  height: 150px;
+}
+
+.top{
+  vertical-align: top;
+}
+
+.middle{
+  vertical-align: middle;
+}
+
+.bottom{
+  vertical-align: bottom;
+}

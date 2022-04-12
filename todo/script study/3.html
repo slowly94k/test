@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script>
+   var Links = {
+      setColor:function (color){
+        var alist = document.querySelectorAll('a');
+        var i = 0;
+        while(i < alist.length){
+         alist[i].style.color = color;
+         i = i+1;
+        }bb
+      }
+    }
+    var Body = {
+      setColor:function(color){
+      document.querySelector('body').style.color = color;
+      },
+      setBackgroundcolor:function(color){
+      document.querySelector('body').style.backgroundColor = color;
+      }
+    }
+    function nightdayHandler(self){
+      var target = document.querySelector('body');
+      if(self.value === 'night'){      
+        Body.setBackgroundcolor('black');
+        Body.setColor('white');
+        self.value = 'day';
+
+        Links.setColor('powderblue');
+      }else{
+        Body.setBackgroundcolor('white');
+        Body.setColor('black');
+        self.value = 'night';
+
+        Links.setColor('blue');
+      }
+    } 
+  </script>
+  <title>Document</title>
+</head>
+<body>
+  <h1><a href="index.html">Web</a></h1>
+
+  <input type="button" value="night" onclick="
+    nightdayHandler(this);
+  ">  
+  <ol>
+    <li><a href="1.html">HTML</a></li>
+    <li><a href="1.html">CSS</a></li>
+    <li><a href="1.html">javascript</a></li>
+  </ol>
+  <p>
+    a b c d e f g h i j k l m n o p q r s t u v w x y z<br>
+    가 나 다 라 마 바 사 아 자 차 카 타 파 하
+  </p>
+  
+  
+</body>
+</html>
